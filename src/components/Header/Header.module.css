@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    background-color: #95a5a6;
+    align-items: center;
+    line-height: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.child1 {
+    width: 20%;
+}
+
+.child1 img {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.child2 {
+    width: 50%;
+    text-align: center;
+}
+
+.child3 {
+    width: 30%;
+}
+
+.child3 input {
+    padding: 0.3rem 1rem;
+}
+
+.child3 input:focus {
+    outline: none;
+}
+
+.header h2 {
+    color: #2c3e50;
+}
+
+.header button {
+    padding: 0.4rem 1rem;
+    margin-left: 1rem;
+    background-color: #34495e;
+    border-style: none;
+    color: #ffffff;
+}
+
+.header button:hover {
+    cursor: pointer;
+    background-color: #3c5064;
+}

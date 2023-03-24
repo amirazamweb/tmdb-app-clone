@@ -1,0 +1,16 @@
+.main {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.main h2 {
+    color: #16a085;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}

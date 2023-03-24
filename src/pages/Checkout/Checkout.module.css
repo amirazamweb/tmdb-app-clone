@@ -1,0 +1,172 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 95vh;
+    color: #2c3e50;
+    margin: auto;
+    position: relative;
+}
+
+.main>div {
+    margin: 1rem;
+}
+
+.main input {
+    color: #2c3e50;
+}
+
+.child1 {
+    width: 30%;
+    border: 1px solid #2c3e50;
+    padding: 0.7rem;
+}
+
+.child1 h3 {
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.child1 h4 {
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.child1 p {
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+}
+
+.child1 p:last-of-type {
+    font-weight: bold;
+}
+
+.child1 span {
+    float: right;
+}
+
+.child1 input {
+    padding: 0.1rem;
+    padding-left: 0.5rem;
+}
+
+.child1 input:focus {
+    outline: none;
+}
+
+/* child2 */
+.child2 {
+    width: 50%;
+}
+
+.child2 h2 {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.child2 form {
+    border: 1px solid #2c3e50;
+    padding: 0.7rem;
+}
+
+.child2 form h3 {
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.child2 form input {
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+    border-radius: 0.2rem;
+    border: 1px solid gray;
+}
+
+.child2 form input:focus {
+    outline: none;
+}
+
+.child2 form input:nth-of-type(3),
+input:nth-of-type(7),
+input:nth-of-type(8),
+input:nth-of-type(9),
+input:nth-of-type(10),
+input:nth-of-type(11) {
+    width: 100%;
+    padding: 0.3rem;
+}
+
+.child2 form input:nth-of-type(1),
+input:nth-of-type(2) {
+    padding: 0.25rem;
+
+}
+
+.child2 form input[type="submit"] {
+    background-color: #2980b9;
+    border-style: none;
+    padding: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* back button */
+.backBtn {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding: 0.3rem 0.7rem;
+    border: 2px solid #2c3e50;
+    font-weight: bold;
+}
+
+.backBtn:hover {
+    cursor: pointer;
+    background-color: #2980b9;
+    color: #fff;
+}
+
+
+/* bg */
+
+.bg {
+    position: absolute;
+    top: -15px;
+    left: 0x;
+    width: 100%;
+    height: 99.8vh;
+    margin: auto;
+    background-color: gray;
+    opacity: 0.6;
+}
+
+/* popup */
+
+.bookedLogo {
+    position: fixed;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    z-index: 1;
+}
+
+.bookedLogo img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.close {
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: black;
+}

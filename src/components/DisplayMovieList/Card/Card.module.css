@@ -1,0 +1,34 @@
+.card {
+    border: 1px solid #636e72;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.card img {
+    width: 100%;
+}
+
+.child1 {
+    padding: 1rem;
+    padding-bottom: 0.3rem;
+}
+
+.child2 {
+    padding: 0.3rem 0.5rem;
+}
+
+.movieName {
+    font-weight: 600;
+}
+
+.lang {
+    color: #c23616;
+}
+
+.rating {
+    float: right;
+    color: #192a56;
+}
