@@ -23,6 +23,10 @@
     text-align: center;
 }
 
+.child2 h2 {
+    color: #2c3e50;
+}
+
 .child3 {
     width: 30%;
 }
@@ -35,11 +39,7 @@
     outline: none;
 }
 
-.header h2 {
-    color: #2c3e50;
-}
-
-.header button {
+.child3 button {
     padding: 0.4rem 1rem;
     margin-left: 1rem;
     background-color: #34495e;
@@ -47,7 +47,7 @@
     color: #ffffff;
 }
 
-.header button:hover {
+.child3 button:hover {
     cursor: pointer;
     background-color: #3c5064;
 }
